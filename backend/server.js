@@ -3,7 +3,11 @@ const app = express();
 const dotenv = require('dotenv');
 const cors = require('cors')
 dotenv.config();
+require("dotenv").config({ path: "./config.env" });
 const port = process.env.port || '4000';
+app.use(express.json());
+app.use(require("./routes/record"));
+const dbo = require("./db/conn");
 
 
 

@@ -58,6 +58,9 @@ export default function Detail(props) {
             </div>
           </div>
         </div>
+        <div className="head2" style={props.state?{backgroundColor:"rgb(39, 14, 39) ",color:"white"}:{backgroundColor:"white",color:"rgb(39, 14, 39)"}}>
+           <span><i class="fa-solid icon fa-plus"></i></span>
+           </div>
     </div>
   )
 }
