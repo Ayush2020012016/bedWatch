@@ -1,9 +1,14 @@
 import React from 'react'
-
-const App = () => {
+import PatientCard from './Components/PatientCard/PatientCard'
+import Home from './Pages/Home'
+import './App.css'
+export default function App() {
   return (
-    <div>App</div>
+<>
+<div className="app">
+<Home/>
+</div>
+</>
   )
 }
 
-export default App
