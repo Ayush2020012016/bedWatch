@@ -58,13 +58,6 @@ export default function Detail(props) {
             </div>
           </div>
         </div>
-        <div className="information">
-          <div className="calendar">
-            
-  
-      
-       </div>
-        </div>
     </div>
   )
 }
