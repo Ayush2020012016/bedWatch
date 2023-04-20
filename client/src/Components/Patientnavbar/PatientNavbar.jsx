@@ -15,8 +15,6 @@ export default function PatientNavbar(props) {
         </div>
         <div className="right">
            <div className="head" style={props.state?{color:"rgb(39, 14, 39)"}:{color:'white'}}>
-           <h3>Appointments history</h3> 
-           <span><i class="fa-solid  icon fa-sort-down"></i></span>
 </div>
            <div className="head2" style={props.state?{backgroundColor:"rgb(39, 14, 39) ",color:"white"}:{backgroundColor:"white",color:"rgb(39, 14, 39)"}}>
            <span><i class="fa-solid icon fa-plus"></i></span>
@@ -24,10 +22,6 @@ export default function PatientNavbar(props) {
            </div>
 
            <div className="head3">
-               <div className='button'><i class="fa-solid icon fa-bell"></i>
-               <span></span></div>
-            
-
                <img src="https://cdn-icons-png.flaticon.com/512/194/194915.png" alt="" />
            </div>
            </div>
