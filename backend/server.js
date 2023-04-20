@@ -10,6 +10,8 @@ app.use(require("./routes/record"));
 const dbo = require("./db/conn");
 
 
+
+
 app.use(cors());
 
 
